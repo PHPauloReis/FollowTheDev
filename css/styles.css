@@ -53,6 +53,9 @@ header .brand span {
     align-items: center;
     text-decoration: none;
     transition: background 0.6s;
+    border: none;
+    cursor: pointer;
+    outline: none;
 }
 
 .btn::after {
