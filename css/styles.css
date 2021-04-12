@@ -121,7 +121,7 @@ header .brand span {
 .card_container {
     width: 100%;
     max-width: 990px;
-    margin: 0 auto 150px auto;
+    margin: 0 auto 40px auto;
 }
 
 .card_container .card {
@@ -173,30 +173,6 @@ header .brand span {
     margin-right: 10px;
 }
 
-.pill {
-    padding: 6px 15px;
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.pill.red {
-    color: #EC4A44;
-}
-
-.pill.black {
-    color: #24292E;
-}
-
-.pill.dark_blue {
-    color: #0A66C2;
-}
-
-.pill.light_blue {
-    color: #1DA1F2;
-}
-
 .card_container .card .action_buttons_container {
     border-left: 2px solid #DEDEDE;
     width: 140px;
@@ -232,16 +208,13 @@ header .brand span {
 
 .footer_container_bg {
     width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    background-color: #2A2D36;
 }
 
 .footer_container {
     width: 100%;
     max-width: 990px;
     margin: 0 auto;
+    border-top: 1px solid #666;
 }
 
 .footer_container footer {
@@ -268,6 +241,30 @@ header .brand span {
     width: 100%;
     margin: 0 -10px;
     display: flex;
+}
+
+.pill {
+    padding: 6px 15px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pill.red {
+    color: #EC4A44;
+}
+
+.pill.black {
+    color: #24292E;
+}
+
+.pill.dark_blue {
+    color: #0A66C2;
+}
+
+.pill.light_blue {
+    color: #1DA1F2;
 }
 
 /**
