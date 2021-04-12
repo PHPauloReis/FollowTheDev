@@ -194,6 +194,7 @@ header .brand span {
     text-decoration: none;
     color: #1d1d1d;
     width: 115px;
+    transition: color 0.4s, background 0.4s;
 }
 
 .card_container .card .action_buttons_container a.edit_button {
@@ -201,9 +202,19 @@ header .brand span {
     color: #3EB63E;
 }
 
+.card_container .card .action_buttons_container a.edit_button:hover {
+    background-color: #3EB63E;
+    color: #FFFFFF;
+}
+
 .card_container .card .action_buttons_container a.delete_button {
     background-color: #FAECEB;
     color: #EC4A44;
+}
+
+.card_container .card .action_buttons_container a.delete_button:hover {
+    background-color: #EC4A44;
+    color: #FFFFFF;
 }
 
 .footer_container_bg {
@@ -249,22 +260,44 @@ header .brand span {
     background-color: #FFFFFF;
     font-size: 16px;
     font-weight: bold;
+    text-decoration: none;
+    transition: color 0.4s, background 0.4s;
 }
 
 .pill.red {
     color: #EC4A44;
 }
 
+.pill.red:hover {
+    color: #FFFFFF;
+    background-color: #EC4A44;
+}
+
 .pill.black {
     color: #24292E;
+}
+
+.pill.black:hover {
+    color: #FFFFFF;
+    background-color: #24292E;
 }
 
 .pill.dark_blue {
     color: #0A66C2;
 }
 
+.pill.dark_blue:hover {
+    color: #FFFFFF;
+    background-color: #0A66C2;
+}
+
 .pill.light_blue {
     color: #1DA1F2;
+}
+
+.pill.light_blue:hover {
+    color: #FFFFFF;
+    background-color: #1DA1F2;
 }
 
 /**
