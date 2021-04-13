@@ -385,6 +385,10 @@ header .brand span {
         padding: 0 30px;
     }
 
+    body::before {
+        height: 50%;
+    }
+
     header {
         height: 200px;
         flex-direction: column;
