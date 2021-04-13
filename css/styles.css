@@ -220,6 +220,15 @@ header .brand span {
     color: #FFFFFF;
 }
 
+.page {
+    background-color: #3A3C46;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px #1d1d1d;
+    display: flex;
+    margin-bottom: 30px;
+}
+
 .footer_container_bg {
     width: 100%;
 }
@@ -350,6 +359,10 @@ table tr td {
     background-color: #4b4d55;
 }
 
+.table_responsive {
+    overflow-x: auto;
+}
+
 .form h1,
 .bio_container h1 {
     width: 100%;
@@ -358,6 +371,7 @@ table tr td {
     padding-bottom: 20px;
     margin-bottom: 30px;
     border-bottom: 1px solid #707070;
+    align-items: flex-start;
 }
 
 .bio_container p {
