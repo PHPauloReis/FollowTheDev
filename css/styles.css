@@ -378,3 +378,89 @@ header .brand span {
 .no_margin_footer {
     margin-bottom: 0 !important;
 }
+
+@media (max-width: 1120px) {
+
+    body {
+        padding: 0 30px;
+    }
+
+    header {
+        height: 200px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header .brand {
+        font-size: 36px;
+        font-weight: bold;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    .card_container .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card_container .card .avatar_container {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .card_container .card .dev_description_container .pills_container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .card_container .card .dev_description_container .pills_container .pill {
+        margin-bottom: 10px;
+    }
+
+    .card_container .card .action_buttons_container {
+        border-left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-left: 0px;
+        border-top: 1px solid #707070;
+    }
+    
+    .card_container .card .action_buttons_container a {
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .card_container .card .dev_description_container {
+        text-align: center;
+    }
+
+    .footer_container_bg {
+        text-align: center;
+    }
+
+    .row {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col_100 {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .col_50 {
+        width: 100%;
+        padding: 0;
+    }
+
+}
