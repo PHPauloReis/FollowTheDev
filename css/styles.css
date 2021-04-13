@@ -251,6 +251,10 @@ header .brand span {
     color: #FFA800;
 }
 
+.footer_container a {
+    color: #FFA800;
+}
+
 .row {
     width: 100%;
     margin: 0 -10px;
@@ -306,17 +310,62 @@ header .brand span {
 /**
  * Página Create.html
  */
- .form {
+.form,
+.bio_container {
     flex-direction: column;
+}
+
+.bio {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
  }
 
-.form h1 {
+.bio .technology_list {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.bio h2 {
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+table tr:first-child th:first-child {
+    width: 200px;
+}
+
+table tr th {
+    padding: 10px 20px;
+    background-color: #3f4147;
+}
+
+table tr td {
+    padding: 10px 20px;
+    background-color: #4b4d55;
+}
+
+.form h1,
+.bio_container h1 {
     width: 100%;
     font-size: 32px;
     color: #FFFFFF;
     padding-bottom: 20px;
     margin-bottom: 30px;
     border-bottom: 1px solid #707070;
+}
+
+.bio_container p {
+    margin-bottom: 28px;
+}
+
+.bio_container a {
+    color: #E29500;
 }
 
 .form_group {
